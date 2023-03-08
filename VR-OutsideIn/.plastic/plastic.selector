@@ -1,0 +1,4 @@
+repository "VR-OutsideIn@wechat_os_qy04s2butosrryw6tiqefs65i@cloud.cn"
+  path "/"
+    br "/main"
+    co "/main"
