@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.19f1c1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/huang/VR-OutsideIn
+D:/GitHub/VRProject/VR-OutsideIn
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51153
-Successfully changed project path to: C:/Users/huang/VR-OutsideIn
-C:/Users/huang/VR-OutsideIn
+52914
+Successfully changed project path to: D:/GitHub/VRProject/VR-OutsideIn
+D:/GitHub/VRProject/VR-OutsideIn
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,16 +47,16 @@ C:/Users/huang/VR-OutsideIn
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8352] Host "[IP] 10.0.0.3 [Port] 0 [Flags] 2 [Guid] 1483983920 [EditorId] 1483983920 [Version] 1048832 [Id] WindowsEditor(7,DAVIDPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [22948] Host "[IP] 10.0.0.3 [Port] 0 [Flags] 2 [Guid] 1695646969 [EditorId] 1695646969 [Version] 1048832 [Id] WindowsEditor(7,DAVIDPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8352] Host "[IP] 10.0.0.3 [Port] 0 [Flags] 2 [Guid] 1483983920 [EditorId] 1483983920 [Version] 1048832 [Id] WindowsEditor(7,DAVIDPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [22948] Host "[IP] 10.0.0.3 [Port] 0 [Flags] 2 [Guid] 1695646969 [EditorId] 1695646969 [Version] 1048832 [Id] WindowsEditor(7,DAVIDPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 AS: AutoStreaming module initializing.
-Refreshing native plugins compatible for Editor in 53.99 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 68.90 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.47 ms.
 Initialize engine version: 2021.3.19f1c1 (b8e3cea1e9d3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.19f1c1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/huang/VR-OutsideIn/Assets
+[Subsystems] Discovering subsystems at path D:/GitHub/VRProject/VR-OutsideIn/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -68,116 +68,59 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1c1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56784
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56328
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.015150 seconds.
+Registered in 0.009180 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 232 ms
-Refreshing native plugins compatible for Editor in 52.79 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Android Extension - Scanning For ADB Devices 207 ms
+Refreshing native plugins compatible for Editor in 61.82 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.761 seconds
+- Completed reload, in  0.718 seconds
 Domain Reload Profiling:
-	ReloadAssembly (762ms)
-		BeginReloadAssembly (80ms)
+	ReloadAssembly (718ms)
+		BeginReloadAssembly (69ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (574ms)
-			LoadAssemblies (73ms)
+		EndReloadAssembly (558ms)
+			LoadAssemblies (65ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (76ms)
+			SetupTypeCache (69ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (20ms)
-			SetupLoadedEditorAssemblies (423ms)
+			RebuildScriptCaches (17ms)
+			SetupLoadedEditorAssemblies (429ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (285ms)
+				InitializePlatformSupportModulesInManaged (254ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (53ms)
+				RefreshPlugins (62ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (56ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
+				ProcessInitializeOnLoadAttributes (67ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.010491 seconds.
+Registered in 0.012104 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\GitHub\VRProject\VR-OutsideIn\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\GitHub\VRProject\VR-OutsideIn\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 51.80 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 61.40 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
 Package Manager log level set to [2]
-Mono: successfully reloaded assembly
-- Completed reload, in  1.027 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1028ms)
-		BeginReloadAssembly (113ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (14ms)
-		EndReloadAssembly (802ms)
-			LoadAssemblies (102ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (183ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (458ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (52ms)
-				BeforeProcessingInitializeOnLoad (81ms)
-				ProcessInitializeOnLoadAttributes (278ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (21ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3815 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 28 unused Assets / (113.5 KB). Loaded Objects now: 4280.
-Memory consumption went from 134.1 MB to 133.9 MB.
-Total: 2.639600 ms (FindLiveObjects: 0.190300 ms CreateObjectMapping: 0.095700 ms MarkObjects: 2.275100 ms  DeleteObjects: 0.077500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011851 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.49 ms.
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\huang\VR-OutsideIn\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\huang\VR-OutsideIn\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\GitHub\VRProject\VR-OutsideIn\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\GitHub\VRProject\VR-OutsideIn\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
   at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
   at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
    --- End of inner exception stack trace ---
@@ -191,40 +134,249 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.918 seconds
+- Completed reload, in  1.071 seconds
 Domain Reload Profiling:
-	ReloadAssembly (919ms)
-		BeginReloadAssembly (130ms)
+	ReloadAssembly (1072ms)
+		BeginReloadAssembly (93ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (13ms)
+		EndReloadAssembly (889ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (176ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (548ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (62ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (354ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.63 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 4160 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 52 unused Assets / (114.5 KB). Loaded Objects now: 4602.
+Memory consumption went from 147.4 MB to 147.3 MB.
+Total: 2.568800 ms (FindLiveObjects: 0.216800 ms CreateObjectMapping: 0.103000 ms MarkObjects: 2.164700 ms  DeleteObjects: 0.083500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 40027.051128 seconds.
+  path: Assets/AutoHand/Examples/Scenes/XR
+  artifactKey: Guid(fa95c54f310b9a04cb56e8fea8d54a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AutoHand/Examples/Scenes/XR using Guid(fa95c54f310b9a04cb56e8fea8d54a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3086e6e87069c3b7cc216a13d0f6142d') in 0.005806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/AutoHand/Examples/Scenes/XR/Demo.unity
+  artifactKey: Guid(9935fff7a54383d4a8ca954c1411c833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AutoHand/Examples/Scenes/XR/Demo.unity using Guid(9935fff7a54383d4a8ca954c1411c833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46c1933a8e9dfe009cc0adffdf2f737d') in 0.000945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/AutoHand/Examples/Scenes
+  artifactKey: Guid(9c4608e4cedd0074497df69655f5f29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AutoHand/Examples/Scenes using Guid(9c4608e4cedd0074497df69655f5f29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b26110fa33c41e15f881fa358add8abd') in 0.000847 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008237 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\GitHub\VRProject\VR-OutsideIn\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\GitHub\VRProject\VR-OutsideIn\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\GitHub\VRProject\VR-OutsideIn\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\GitHub\VRProject\VR-OutsideIn\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <830c43131bfd493c992eda1d9502c102>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.936 seconds
+Domain Reload Profiling:
+	ReloadAssembly (936ms)
+		BeginReloadAssembly (126ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (725ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (185ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (375ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (268ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.34 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 4149 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (0.7 MB). Loaded Objects now: 4606.
+Memory consumption went from 148.5 MB to 147.8 MB.
+Total: 2.769600 ms (FindLiveObjects: 0.198800 ms CreateObjectMapping: 0.109400 ms MarkObjects: 2.217400 ms  DeleteObjects: 0.243000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 83.141150 seconds.
+  path: Assets/Hypercasual Action Props Pack Volume 1/DemoScenes
+  artifactKey: Guid(86ec3bdbed75bb34096c42f61ff5faf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hypercasual Action Props Pack Volume 1/DemoScenes using Guid(86ec3bdbed75bb34096c42f61ff5faf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '965a4b036116a0758b02da451dbdb6e0') in 0.005940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.704411 seconds.
+  path: Assets/Hypercasual Action Props Pack Volume 1/DemoScenes/DemoScene_standardShader.unity
+  artifactKey: Guid(4e24f17a5eb847348a1fe565087ac4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hypercasual Action Props Pack Volume 1/DemoScenes/DemoScene_standardShader.unity using Guid(4e24f17a5eb847348a1fe565087ac4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9007a5ed1c51aad2a12eb6878937b1a') in 0.001113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.432920 seconds.
+  path: Assets/Hypercasual Action Props Pack Volume 1/DemoScenes/DemoScene_stylizedToonyShader.unity
+  artifactKey: Guid(9063acc5dca0f05459ca11a0bfc35a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hypercasual Action Props Pack Volume 1/DemoScenes/DemoScene_stylizedToonyShader.unity using Guid(9063acc5dca0f05459ca11a0bfc35a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c98e8b0de72b7abea3ecd101108074f') in 0.001064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.745509 seconds.
+  path: Assets/Hypercasual Action Props Pack Volume 2/DemoScenes/DemoScene_standardShader.unity
+  artifactKey: Guid(d7275cc29ebf4f744b78e160aebe3169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hypercasual Action Props Pack Volume 2/DemoScenes/DemoScene_standardShader.unity using Guid(d7275cc29ebf4f744b78e160aebe3169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd431c468b6ebdbddb642db45d246df4a') in 0.001029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.206856 seconds.
+  path: Assets/Hypercasual Action Props Pack Volume 2/DemoScenes/DemoScene_stylizedToonyShader.unity
+  artifactKey: Guid(3ee6c417ab071c34d82880a4ce443930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hypercasual Action Props Pack Volume 2/DemoScenes/DemoScene_stylizedToonyShader.unity using Guid(3ee6c417ab071c34d82880a4ce443930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a1304b33ee8bbdf4f5d82c4c253895d') in 0.001395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.291553 seconds.
+  path: Assets/Hypercasual Action Props Pack Volume 3/DemoScenes/DemoScene_standardShader.unity
+  artifactKey: Guid(7d9d387c23295424b978c62233580a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hypercasual Action Props Pack Volume 3/DemoScenes/DemoScene_standardShader.unity using Guid(7d9d387c23295424b978c62233580a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff2a7f14d36c80eb528141ad36a0e73c') in 0.000904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.202641 seconds.
+  path: Assets/Hypercasual Action Props Pack Volume 3/DemoScenes/DemoScene_stylizedToonyShader.unity
+  artifactKey: Guid(a0096e281af201342a1ba749976acda7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hypercasual Action Props Pack Volume 3/DemoScenes/DemoScene_stylizedToonyShader.unity using Guid(a0096e281af201342a1ba749976acda7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0abb72f60789705df5fc57b810e286f6') in 0.000924 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007742 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\GitHub\VRProject\VR-OutsideIn\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\GitHub\VRProject\VR-OutsideIn\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\GitHub\VRProject\VR-OutsideIn\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\GitHub\VRProject\VR-OutsideIn\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <830c43131bfd493c992eda1d9502c102>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.949 seconds
+Domain Reload Profiling:
+	ReloadAssembly (950ms)
+		BeginReloadAssembly (124ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (692ms)
-			LoadAssemblies (94ms)
+		EndReloadAssembly (741ms)
+			LoadAssemblies (85ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (171ms)
+			SetupTypeCache (178ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (372ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (393ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
+				InitializePlatformSupportModulesInManaged (20ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (63ms)
-				ProcessInitializeOnLoadAttributes (259ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (16ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (282ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (17ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 5.69 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-Unloading 3841 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (79.8 KB). Loaded Objects now: 4302.
-Memory consumption went from 136.8 MB to 136.8 MB.
-Total: 2.394900 ms (FindLiveObjects: 0.182900 ms CreateObjectMapping: 0.088100 ms MarkObjects: 2.058200 ms  DeleteObjects: 0.063600 ms)
+Refreshing native plugins compatible for Editor in 4.87 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 4150 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 56 unused Assets / (1.1 MB). Loaded Objects now: 4610.
+Memory consumption went from 149.1 MB to 148.0 MB.
+Total: 2.827500 ms (FindLiveObjects: 0.217100 ms CreateObjectMapping: 0.134300 ms MarkObjects: 2.131000 ms  DeleteObjects: 0.343900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -238,73 +390,194 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.019506 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.15 ms.
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\huang\VR-OutsideIn\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\huang\VR-OutsideIn\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <03bd9b261dff4c2b8b568aca27f561b2>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <830c43131bfd493c992eda1d9502c102>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.971 seconds
-Domain Reload Profiling:
-	ReloadAssembly (971ms)
-		BeginReloadAssembly (140ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (738ms)
-			LoadAssemblies (103ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (172ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (402ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (73ms)
-				ProcessInitializeOnLoadAttributes (267ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
-				AfterProcessingInitializeOnLoad (22ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 11.14 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
-Unloading 3961 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 59 unused Assets / (81.0 KB). Loaded Objects now: 4398.
-Memory consumption went from 141.0 MB to 140.9 MB.
-Total: 2.645100 ms (FindLiveObjects: 0.195200 ms CreateObjectMapping: 0.095800 ms MarkObjects: 2.255600 ms  DeleteObjects: 0.096500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 28.975572 seconds.
+  path: Assets/Hypercasual Action Props Pack Volume 3/Materials/Mat_ActionPropsPack_vol3_standardShader_vol.3.mat
+  artifactKey: Guid(6845c871c1c64e54d9c9b6dfc938d7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hypercasual Action Props Pack Volume 3/Materials/Mat_ActionPropsPack_vol3_standardShader_vol.3.mat using Guid(6845c871c1c64e54d9c9b6dfc938d7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '042f9873bc11825a9859579ab8c7cb11') in 0.197727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Hypercasual Action Props Pack Volume 3/Materials/Mat_VFX_CartoonClouds.mat
+  artifactKey: Guid(871b39d912f8efd4b802adfe6411b8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hypercasual Action Props Pack Volume 3/Materials/Mat_VFX_CartoonClouds.mat using Guid(871b39d912f8efd4b802adfe6411b8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0005c624ec21541d777193f2e7a1e151') in 0.022031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.005705 seconds.
+  path: Assets/Hypercasual Action Props Pack Volume 3/Models/Asteroid_brown.fbx
+  artifactKey: Guid(99710025e9deeeb469c42399a2652108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hypercasual Action Props Pack Volume 3/Models/Asteroid_brown.fbx using Guid(99710025e9deeeb469c42399a2652108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd68c58274156ed76162ad9fd760a5d1a') in 0.082346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Hypercasual Action Props Pack Volume 3/Models/Banana.fbx
+  artifactKey: Guid(9629e13b69a2dc045b846bc9cc34feda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hypercasual Action Props Pack Volume 3/Models/Banana.fbx using Guid(9629e13b69a2dc045b846bc9cc34feda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2764640ff46d456c925779097405110e') in 0.025985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Hypercasual Action Props Pack Volume 3/Models/Pistol12.fbx
+  artifactKey: Guid(037940463658f5a48956ab157f0092eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hypercasual Action Props Pack Volume 3/Models/Pistol12.fbx using Guid(037940463658f5a48956ab157f0092eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '737fcbd68e9740bfd7df354ee1d885ba') in 0.031525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Hypercasual Action Props Pack Volume 3/Models/ReloadIcon_white.fbx
+  artifactKey: Guid(194185480fd356341a403847d416c8a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hypercasual Action Props Pack Volume 3/Models/ReloadIcon_white.fbx using Guid(194185480fd356341a403847d416c8a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88829c81181445e92e989603adfbc956') in 0.024262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Hypercasual Action Props Pack Volume 3/Models/Boomerang.fbx
+  artifactKey: Guid(e0cdbdcac68d0314aa10eca86973117c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hypercasual Action Props Pack Volume 3/Models/Boomerang.fbx using Guid(e0cdbdcac68d0314aa10eca86973117c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1c4f8ed1f623d91b0032ae0fd98a9a0') in 0.024435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Hypercasual Action Props Pack Volume 3/Models/Bottle.fbx
+  artifactKey: Guid(7c3c1c0d6b77f9e4e9a66a4ab2a2932a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hypercasual Action Props Pack Volume 3/Models/Bottle.fbx using Guid(7c3c1c0d6b77f9e4e9a66a4ab2a2932a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20650a816c005a89932bed3740f200ac') in 0.024822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Hypercasual Action Props Pack Volume 3/Models/SoundHammer.fbx
+  artifactKey: Guid(91544845c0837f7489357fe2238f5595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hypercasual Action Props Pack Volume 3/Models/SoundHammer.fbx using Guid(91544845c0837f7489357fe2238f5595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2f4ff4b980e4119f121fd29a812229c') in 0.023308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Hypercasual Action Props Pack Volume 3/Models/Slingshot.fbx
+  artifactKey: Guid(6f9f49b4fe237c94e952caa629070e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hypercasual Action Props Pack Volume 3/Models/Slingshot.fbx using Guid(6f9f49b4fe237c94e952caa629070e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37b67981a72387dba497f3745347cb9d') in 0.039794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Hypercasual Action Props Pack Volume 3/Models/Pistol05.fbx
+  artifactKey: Guid(4938ad916391e904dbb55c8939ce6de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hypercasual Action Props Pack Volume 3/Models/Pistol05.fbx using Guid(4938ad916391e904dbb55c8939ce6de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a49a39e24cd5cf38ff7c66996233ed06') in 0.016582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Hypercasual Action Props Pack Volume 3/Models/Asteroid_pink.fbx
+  artifactKey: Guid(d45ab87f17c6e9b4d80df8984c99b141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hypercasual Action Props Pack Volume 3/Models/Asteroid_pink.fbx using Guid(d45ab87f17c6e9b4d80df8984c99b141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adead90425cfc414d7a1187071f303bd') in 0.010268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Hypercasual Action Props Pack Volume 3/Models/Rifle07.fbx
+  artifactKey: Guid(78ba06943e51c164ca832bd758396308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hypercasual Action Props Pack Volume 3/Models/Rifle07.fbx using Guid(78ba06943e51c164ca832bd758396308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b5f016417315770b105e92e6170b048') in 0.010532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Hypercasual Action Props Pack Volume 3/Models/Shuriken03.fbx
+  artifactKey: Guid(c7428668d4dd89e4e8a5273c6e236859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hypercasual Action Props Pack Volume 3/Models/Shuriken03.fbx using Guid(c7428668d4dd89e4e8a5273c6e236859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e852e884a8a1e614fc6f4f2fdfa2fdde') in 0.009172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Hypercasual Action Props Pack Volume 3/Models/NutWrench.fbx
+  artifactKey: Guid(06bd3db9e51a2c548a247bf0f74a3164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hypercasual Action Props Pack Volume 3/Models/NutWrench.fbx using Guid(06bd3db9e51a2c548a247bf0f74a3164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50fdf6cfd420b1a3faabb2a94ff4759e') in 0.010727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Hypercasual Action Props Pack Volume 3/Models/Rifle05.fbx
+  artifactKey: Guid(6844fd4c27ef9f649b28013645466370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hypercasual Action Props Pack Volume 3/Models/Rifle05.fbx using Guid(6844fd4c27ef9f649b28013645466370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f52a6e99f09ae09d897bdcbc72ef0c5f') in 0.010439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Hypercasual Action Props Pack Volume 3/Models/HockeyStick.fbx
+  artifactKey: Guid(3135341f32c9fb04e9befdede1aa15da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hypercasual Action Props Pack Volume 3/Models/HockeyStick.fbx using Guid(3135341f32c9fb04e9befdede1aa15da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e213a08d72c0f0eba16c155eb2217217') in 0.009789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Hypercasual Action Props Pack Volume 3/Models/Pistol08.fbx
+  artifactKey: Guid(a2c1f84eaaee23549b804f26204694e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hypercasual Action Props Pack Volume 3/Models/Pistol08.fbx using Guid(a2c1f84eaaee23549b804f26204694e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c801930bdfbb103a9a4a0bf9a861186d') in 0.010461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Hypercasual Action Props Pack Volume 3/Models/NuclearBarrel.fbx
+  artifactKey: Guid(5364c40c81cd9af4c9b21415c2f4a9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hypercasual Action Props Pack Volume 3/Models/NuclearBarrel.fbx using Guid(5364c40c81cd9af4c9b21415c2f4a9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5239ec2e8e890734127b574405e269d') in 0.009880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Hypercasual Action Props Pack Volume 3/Models/Pistol10.fbx
+  artifactKey: Guid(053ab7a1df98698489524dcb51b40b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hypercasual Action Props Pack Volume 3/Models/Pistol10.fbx using Guid(053ab7a1df98698489524dcb51b40b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5fed8adcdfb57f6c1c93573875e9ee8') in 0.009139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Hypercasual Action Props Pack Volume 3/Models/GasBurner.fbx
+  artifactKey: Guid(ef0071d5a5147d241977a76e33fe6b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hypercasual Action Props Pack Volume 3/Models/GasBurner.fbx using Guid(ef0071d5a5147d241977a76e33fe6b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bd955218723e318694ce3f6a413ea89') in 0.009481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Hypercasual Action Props Pack Volume 3/Models/Grenade04.fbx
+  artifactKey: Guid(ced5e8ac1d5c71d429dcf296647deb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hypercasual Action Props Pack Volume 3/Models/Grenade04.fbx using Guid(ced5e8ac1d5c71d429dcf296647deb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eca7264e955a14d971ff375f6e2c71c') in 0.010854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Hypercasual Action Props Pack Volume 3/Models/Knife05.fbx
+  artifactKey: Guid(0c4506251773e7e40a77073d924e393c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hypercasual Action Props Pack Volume 3/Models/Knife05.fbx using Guid(0c4506251773e7e40a77073d924e393c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dfa99cd1ffcc14cf759e48633a8d0ff') in 0.010499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Hypercasual Action Props Pack Volume 3/Models/Pistol13.fbx
+  artifactKey: Guid(d2cb38935de4c19428ca861745025821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hypercasual Action Props Pack Volume 3/Models/Pistol13.fbx using Guid(d2cb38935de4c19428ca861745025821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9456625f208589dbc90a40bc31b9fa7f') in 0.010964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Hypercasual Action Props Pack Volume 3/Models/Rosette.fbx
+  artifactKey: Guid(f20a0e22369f1464ca6e56c1a5a21828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hypercasual Action Props Pack Volume 3/Models/Rosette.fbx using Guid(f20a0e22369f1464ca6e56c1a5a21828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b20024c5c835e7ecab53d157fe6b81cf') in 0.010070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Hypercasual Action Props Pack Volume 3/Models/C4WithTimer.fbx
+  artifactKey: Guid(72152dd6ae0e0b5488d520acd5d6d123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hypercasual Action Props Pack Volume 3/Models/C4WithTimer.fbx using Guid(72152dd6ae0e0b5488d520acd5d6d123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e39f0f400b1a83d1c96e5d5b2541b3ca') in 0.010437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Hypercasual Action Props Pack Volume 3/Models/RevolvingGrenadeGun01.fbx
+  artifactKey: Guid(b46699d42149395409664c5d750321e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hypercasual Action Props Pack Volume 3/Models/RevolvingGrenadeGun01.fbx using Guid(b46699d42149395409664c5d750321e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aaa8180ccfca03814ef532cbaaa3af1') in 0.013841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Hypercasual Action Props Pack Volume 3/Models/ReloadIcon_red.fbx
+  artifactKey: Guid(75c1ff46f732f1f4fb801f3919edb55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hypercasual Action Props Pack Volume 3/Models/ReloadIcon_red.fbx using Guid(75c1ff46f732f1f4fb801f3919edb55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed332720cf506f9b75e7a74e6fb5ffa7') in 0.009441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Hypercasual Action Props Pack Volume 3/Models/Pistol15.fbx
+  artifactKey: Guid(192e75a36acfcfd4cac5d7d23e2b704f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hypercasual Action Props Pack Volume 3/Models/Pistol15.fbx using Guid(192e75a36acfcfd4cac5d7d23e2b704f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37adf5073534b847bc5c44bfa254e119') in 0.009915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Hypercasual Action Props Pack Volume 3/Models/Grenade03.fbx
+  artifactKey: Guid(af695f27e62801a4693d84f4a6963c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hypercasual Action Props Pack Volume 3/Models/Grenade03.fbx using Guid(af695f27e62801a4693d84f4a6963c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '336d34beef7e40fc6a0728e8deb6596f') in 0.010732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Hypercasual Action Props Pack Volume 3/Models/Stick.fbx
+  artifactKey: Guid(c8f6a1c96d5be614ca3c602033036c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hypercasual Action Props Pack Volume 3/Models/Stick.fbx using Guid(c8f6a1c96d5be614ca3c602033036c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5190712661b32d1c56d2441268a52e7') in 0.009562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.317993 seconds.
+  path: Assets/Hypercasual Action Props Pack Volume 3/Textures/PSD_ActionPropsPack_vol3.psd
+  artifactKey: Guid(7c9229a13a28f0044b44ba97e383832c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hypercasual Action Props Pack Volume 3/Textures/PSD_ActionPropsPack_vol3.psd using Guid(7c9229a13a28f0044b44ba97e383832c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b320ba5c3bc406fdf6d32d884557f839') in 0.033917 seconds 
